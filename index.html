@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 data-key="title">Loading...</h1>
+        <nav>
+            <ul>
+                <li data-key="home">Loading...</li>
+                <li data-key="about">Loading...</li>
+                <li data-key="contact">Loading...</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p data-key="welcome">Loading...</p>
+    </main>
+    <footer>
+        <p data-key="footer">Loading...</p>
+    </footer>
+
+    <label for="language">Choose Language:</label>
+    <select id="language" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="uk">Українська</option>
+        <option value="pl">Polski</option>
+    </select>
+
+    <script src="script.js"></script>
+</body>
+</html>
