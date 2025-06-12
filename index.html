@@ -1,40 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Selector</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTEREGO</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 data-key="title">Loading...</h1>
-        <nav>
-            <ul>
-                <li data-key="home">Loading...</li>
-                <li data-key="about">Loading...</li>
-                <li data-key="contact">Loading...</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <p data-key="welcome">Loading...</p>
-    </main>
-    <footer>
-        <p data-key="footer">Loading...</p>
-    </footer>
-
-    <label for="language">Choose Language:</label>
-    <select id="language" onchange="changeLanguage()">
-        <option value="en">English</option>
-        <option value="uk">Українська</option>
-        <option value="pl">Polski</option>
-    </select>
-
-    <script src="script.js"></script>
-</body>
-</html>
+  <header>
+    <div class="container nav-container">
+      <h1>ALTEREGO</h1>
+      <nav>
+        <ul>
+          <li><a href="#models">Models</a></li>
+          <li><a href="#sponsor">Sponsorship</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Buy Unique 3D Models</h2>
+        <p class="text-models">Experience the inspiration of creativity with our premium collection of 3D models.</p>
+        <a href="#models" class="btn">View Models</a>
+      </div>
+    </section>
+    <section id="models">
+      <div class="container">
+        <h2>3D Models</h2>
+        <div class="model-gallery">
+          <div class="model-card">
+            <img src="https://via.placeholder.com/300x200" alt="Model 1">
+            <h3>Model 1</h3>
+            <p>Description of the model. High detail and quality.</p>
+            <button class="buy-btn">Buy for $10</button>
+          </div>
+          <div class="model-card">
+            <img src="https://via.placeholder.com/300x200" alt="Model 2">
+            <h3>Model 2</h3>
+            <p>Perfect for professional projects.</p>
+            <button class="buy-btn">Buy for $15</button>
+          </div>
+          <div class="model-card">
+            <img src="https://via.placeholder.com/300x200" alt="Model 3">
+            <h3>Model 3</h3>
+            <p>Optimized for rendering in professional settings.</p>
+            <button class="buy-btn">Buy for $20</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="sponsor">
+      <div class="container">
+        <h2>Become a Project Sponsor</h2>
+        <p>Support our project by choosing your contribution: </p>
+        <div class="sponsor-buttons">
+          <button class="sponsor-btn" data-amount="0.50">$0.50</button>
+          <button class="sponsor-btn" data-amount="1.00">$1</button>
+          <button class="sponsor-btn" data-amount="50">$50</button>
+          <button class="sponsor-btn" data-amount="100">$100</button>
+          <button class="sponsor-btn" data-amount="200">$200</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 3D Models. All rights reserved
