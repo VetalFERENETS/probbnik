@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support the Final Push</title>
+  <style>
+    /* Підключення кастомного шрифту */
+    @font-face {
+      font-family: 'Windu';
+      src: url('fonts/Windu.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    /* Базові скидання */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Windu', sans-serif;
+      background: linear-gradient(135deg, #0d0d0d, #1c1c1c);
+      color: #e2e2e2;
+      line-height: 1.6;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Контейнер, що обмежує ширину */
+    .campaign {
+      max-width: 800px;
+      width: 100%;
+      background: #111;
+      border-radius: 12px;
+      padding: 60px 40px;
+      box-shadow: 0 0 40px rgba(255, 215, 0, 0.05);
+      text-align: center;
+    }
+
+    .campaign h2 {
+      font-size: 2.6em;
+      color: #f0f062;
+      text-transform: uppercase;
+      margin-bottom: 0.5em;
+    }
+
+    .campaign-goal {
+      font-size: 1.3em;
+      color: #ccc;
+      margin-bottom: 2em;
+    }
+
+    .opus {
+      font-size: 1.8em;
+      color: #ffda8a;
+      margin-top: 2em;
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.3em;
+    }
+
+    ul.timeline,
+    ul.sponsor-benefits {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1em;
+      margin-bottom: 2em;
+    }
+
+    ul.timeline li,
+    ul.sponsor-benefits li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 1em;
+      font-size: 1.1em;
+      color: #ddd;
+      transition: color 0.3s;
+      cursor: default;
+    }
+
+    /* Стилізована маркерка */
+    ul.timeline li::before,
+    ul.sponsor-benefits li::before {
+      content: '➤';
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #f0a500;
+    }
+
+    /* Hover-ефект для пунктів списків */
+    ul.timeline li:hover,
+    ul.sponsor-benefits li:hover {
+      color: #f0f062;
+    }
+  </style>
+</head>
+<body>
+  <section class="campaign">
+    <h2>Support the Final Push</h2>
+    <p class="campaign-goal">
+      To raise funds for final development, professional narration,
+      engine expansion, and wide-scale user testing.
+    </p>
+
+    <h3 class="opus">Project Timeline</h3>
+    <ul class="timeline">
+      <li><strong>Prototype completed:</strong> core mechanics, ant AI, nest construction</li>
+      <li><strong>Current stage:</strong> implementing narrative systems and strategic depth</li>
+      <li><strong>Next:</strong> professional audio production, marketing, and full public release</li>
+    </ul>
+
+    <h3 class="opus">Why Sponsor Us</h3>
+    <ul class="sponsor-benefits">
+      <li>Your name or brand will appear in the game’s credits and promotional materials</li>
+      <li>You’ll support a project that stands out and has massive viral potential</li>
+      <li>You gain reputational value: backing something smart, creative, and nature-inspired</li>
+      <li>You show commitment to original, future-forward ideas in the gaming world</li>
+    </ul>
+  </section>
+</body>
+</html>
