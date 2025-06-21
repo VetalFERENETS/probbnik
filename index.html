@@ -15,18 +15,12 @@
       <h1>ALTEREGO</h1>
       <nav>
         <ul>
-          <li><a href="#sponsor">Sponsorship</a></li>
+          <li><a href="#spo">Sponsorship</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-<section class="video-section">
-  <video id="hoverVideo" controls preload="auto">
-      <source src="./img/Ant Farmer for Unreal 5.mp4" type="video/mp4" />
-    </video>
-  </section>
-    </section>
   <section class="game-description">
   <h1>Our idea</h1>
   <p class="intro">
@@ -39,20 +33,47 @@
     Ant paths, realistic threats, smart RTS mechanics, and immersive narration combine into an experience where <em>gameplay becomes a living story</em> – meant to be played and remembered.
   </p>
     </section>
+     <section class="video-section">
+  <video id="hoverVideo" controls preload="auto">
+      <source src="./img/Ant Farmer for Unreal 5.mp4" type="video/mp4" />
+    </video>
+  </section>
+  <section class="sponsor-section" id="spo">
+    <h2>Support Our Game</h2>
+    <p class="lol">Your backing helps us finish development, record narration, expand the engine, and run wide-scale testing.</p>
+    <button id="openSponsorModal">Become a Sponsor</button>
+  </section>
+
+  <!-- Modal + overlay -->
+  <div id="overlay" class="overlay"></div>
+  <div id="sponsorModal" class="modal">
+    <button class="close-btn" id="closeModal">&times;</button>
+    
+
+    <h4 class="opus1">Pick an amount</h4>
+    <div class="amounts">
+      <button class="amount-btn" data-amount="0.5">0.5 USD</button>
+      <button class="amount-btn" data-amount="1">1 USD</button>
+      <button class="amount-btn" data-amount="50">50 USD</button>
+      <button class="amount-btn" data-amount="100">100 USD</button>
+      <button class="amount-btn" data-amount="200">200 USD</button>
+    </div>
+    <div id="status" class="status"></div>
+  </div>
     <section class="campaign">
   <h2>Support the Final Push</h2>
   <p class="campaign-goal">
     To raise funds for final development, professional narration, engine expansion, and wide-scale user testing.
   </p>
 
-  <h3> Project Timeline</h3>
+  <h3 class="opus"> Project Timeline</h3>
   <ul class="timeline">
     <li><strong>Prototype completed:</strong> core mechanics, ant AI, nest construction</li>
     <li><strong>Current stage:</strong> implementing narrative systems and strategic depth</li>
     <li><strong>Next:</strong> professional audio production, marketing, and full public release</li>
   </ul>
 
-  <h3> Why Sponsor Us</h3>
+  <h3 class="opus"> Why Sponsor Us</h3>
   <ul class="sponsor-benefits">
     <li>Your name or brand will appear in the game’s credits and promotional materials</li>
     <li>You’ll support a project that stands out and has massive viral potential</li>
@@ -64,34 +85,13 @@
     Join now. Once the project launches, it’ll be too late to take top credit.<br />
     <span class="highlight">This is the perfect moment to be part of something unique – before the whole internet starts talking about it.</span>
   </p>
- <section class="sponsor-section">
-    <h2>Support Our Game</h2>
-    <p>Your backing helps us finish development, record narration, expand the engine, and run wide-scale testing.</p>
-    <button id="openSponsorModal">Become a Sponsor</button>
-  </section>
-
-  <!-- Modal + overlay -->
-  <div id="overlay" class="overlay"></div>
-  <div id="sponsorModal" class="modal">
-    <button class="close-btn" id="closeModal">&times;</button>
-    <h3>Enter your nickname</h3>
-    <input type="text" id="nickname" placeholder="Your nickname…" />
-
-    <h4>Pick an amount</h4>
-    <div class="amounts">
-      <button class="amount-btn" data-amount="0.5">0.5 USD</button>
-      <button class="amount-btn" data-amount="1">1 USD</button>
-      <button class="amount-btn" data-amount="50">50 USD</button>
-      <button class="amount-btn" data-amount="100">100 USD</button>
-      <button class="amount-btn" data-amount="200">200 USD</button>
-    </div>
-    <div id="status" class="status"></div>
-  </div>
+   </section>
+ 
   </main>
   
   <footer>
     <div class="container">
-      <p>&copy; 2025 3D Models. All rights reserved
+      <p class="konec">&copy; 2025 3D Models. All rights reserved
   </footer>
     <script src="video-control.js"></script>
      <script src="js/modal.js"></script>
