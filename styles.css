@@ -59,7 +59,7 @@ nav a:hover {
   background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
   color: #fff;
   text-align: center;
-  padding: 100px 0;
+  
 }
 .text-models{
   margin-bottom: 20px;
@@ -200,4 +200,227 @@ footer {
   padding: 20px 0;
   text-align: center;
   margin-top: 40px;
+}
+
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+  padding-bottom: 25px;
+}
+
+video {
+  width: 70%;
+  border: 5px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+.game-description {
+  max-width: 99%;
+  margin: auto;
+ background: #f9f9f9;
+  padding: 3rem;
+  border-radius: 12px;
+ 
+  text-align: center;
+}
+
+.game-description h1 {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.game-description p {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.game-description .intro {
+  font-weight: 400;
+  text-align: center;
+}
+
+.game-description .highlight {
+  color: #006400;
+  font-weight: 400;
+}
+
+.game-description .closing em {
+  color: #b22222;
+  font-style: normal;
+  font-weight: 400;
+}
+.campaign {
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  line-height: 1.3;
+ background: #f9f9f9;
+
+  border-radius: 12px;
+   text-align: center;
+}
+
+.campaign h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.campaign-goal {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.timeline, .sponsor-benefits {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.timeline li::before {
+  content: "⏺ ";
+  color: #c96e00;
+}
+
+.sponsor-benefits li::before {
+  content: "✔ ";
+  color: #2e8b57;
+}
+
+.timeline li, .sponsor-benefits li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.cta {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+ background: #f9f9f9;
+  padding: 1rem 1.5rem;
+ 
+  border-radius: 6px;
+}
+
+.cta .highlight {
+  color: #b22222;
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.sponsor-section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sponsor-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.sponsor-section p {
+  margin-bottom: 1.5rem;
+}
+
+.sponsor-section button {
+  background: #0066cc;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.sponsor-section button:hover {
+  background: #005bb5;
+}
+
+/* overlay behind modal */
+.overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  z-index: 1000;
+}
+
+/* modal */
+.modal {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  width: 320px;
+  display: none;
+  z-index: 1001;
+}
+
+.modal h3 {
+  margin-top: 0;
+}
+
+.modal input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem;
+  font-size: 1rem;
+}
+
+.amounts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.amount-btn {
+  flex: 1 1 45%;
+  padding: 0.5rem;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.amount-btn:hover {
+  background: #e0e0e0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px; right: 8px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 0.9rem;
+  color: green;
+  height: 1.2rem;
 }

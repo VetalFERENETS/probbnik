@@ -15,61 +15,85 @@
       <h1>ALTEREGO</h1>
       <nav>
         <ul>
-          <li><a href="#models">Models</a></li>
           <li><a href="#sponsor">Sponsorship</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <section id="hero">
-      <div class="hero-content">
-        <h2>Buy Unique 3D Models</h2>
-        <p class="text-models">Experience the inspiration of creativity with our premium collection of 3D models.</p>
-        <a href="#models" class="btn">View Models</a>
-      </div>
+<section class="video-section">
+  <video id="hoverVideo" controls preload="auto">
+      <source src="./img/Ant Farmer for Unreal 5.mp4" type="video/mp4" />
+    </video>
+  </section>
     </section>
-    <section id="models">
-      <div class="container">
-        <h2>3D Models</h2>
-        <div class="model-gallery">
-          <div class="model-card">
-            <img src="https://via.placeholder.com/300x200" alt="Model 1">
-            <h3>Model 1</h3>
-            <p>Description of the model. High detail and quality.</p>
-            <button class="buy-btn">Buy for $10</button>
-          </div>
-          <div class="model-card">
-            <img src="https://via.placeholder.com/300x200" alt="Model 2">
-            <h3>Model 2</h3>
-            <p>Perfect for professional projects.</p>
-            <button class="buy-btn">Buy for $15</button>
-          </div>
-          <div class="model-card">
-            <img src="https://via.placeholder.com/300x200" alt="Model 3">
-            <h3>Model 3</h3>
-            <p>Optimized for rendering in professional settings.</p>
-            <button class="buy-btn">Buy for $20</button>
-          </div>
-        </div>
-      </div>
+  <section class="game-description">
+  <h1>Our idea</h1>
+  <p class="intro">
+    We’re creating the first-ever <strong>strategy-narrative game</strong> where the life of an ant colony becomes a dynamic, real-time story – narrated by a professional voice actor in the style of Discovery documentaries.
+  </p>
+  <p>
+    The player manages the colony: <span class="highlight">gathering resources</span>, <span class="highlight">defending against predators</span>, <span class="highlight">building structures</span>, <span class="highlight">expanding the population</span>, and adapting to an ever-changing environment.
+  </p>
+  <p class="closing">
+    Ant paths, realistic threats, smart RTS mechanics, and immersive narration combine into an experience where <em>gameplay becomes a living story</em> – meant to be played and remembered.
+  </p>
     </section>
-    
-    <section id="sponsor">
-      <div class="container">
-        <h2>Become a Project Sponsor</h2>
-        <p>Support our project by choosing your contribution: </p>
-        <div class="sponsor-buttons">
-          <button class="sponsor-btn" data-amount="0.50">$0.50</button>
-          <button class="sponsor-btn" data-amount="1.00">$1</button>
-          <button class="sponsor-btn" data-amount="50">$50</button>
-          <button class="sponsor-btn" data-amount="100">$100</button>
-          <button class="sponsor-btn" data-amount="200">$200</button>
-        </div>
-      </div>
-    </section>
+    <section class="campaign">
+  <h2>Support the Final Push</h2>
+  <p class="campaign-goal">
+    To raise funds for final development, professional narration, engine expansion, and wide-scale user testing.
+  </p>
+
+  <h3> Project Timeline</h3>
+  <ul class="timeline">
+    <li><strong>Prototype completed:</strong> core mechanics, ant AI, nest construction</li>
+    <li><strong>Current stage:</strong> implementing narrative systems and strategic depth</li>
+    <li><strong>Next:</strong> professional audio production, marketing, and full public release</li>
+  </ul>
+
+  <h3> Why Sponsor Us</h3>
+  <ul class="sponsor-benefits">
+    <li>Your name or brand will appear in the game’s credits and promotional materials</li>
+    <li>You’ll support a project that stands out and has massive viral potential</li>
+    <li>You gain reputational value: backing something smart, creative, and nature-inspired</li>
+    <li>You show commitment to original, future-forward ideas in the gaming world</li>
+  </ul>
+
+  <p class="cta">
+    Join now. Once the project launches, it’ll be too late to take top credit.<br />
+    <span class="highlight">This is the perfect moment to be part of something unique – before the whole internet starts talking about it.</span>
+  </p>
+ <section class="sponsor-section">
+    <h2>Support Our Game</h2>
+    <p>Your backing helps us finish development, record narration, expand the engine, and run wide-scale testing.</p>
+    <button id="openSponsorModal">Become a Sponsor</button>
+  </section>
+
+  <!-- Modal + overlay -->
+  <div id="overlay" class="overlay"></div>
+  <div id="sponsorModal" class="modal">
+    <button class="close-btn" id="closeModal">&times;</button>
+    <h3>Enter your nickname</h3>
+    <input type="text" id="nickname" placeholder="Your nickname…" />
+
+    <h4>Pick an amount</h4>
+    <div class="amounts">
+      <button class="amount-btn" data-amount="0.5">0.5 USD</button>
+      <button class="amount-btn" data-amount="1">1 USD</button>
+      <button class="amount-btn" data-amount="50">50 USD</button>
+      <button class="amount-btn" data-amount="100">100 USD</button>
+      <button class="amount-btn" data-amount="200">200 USD</button>
+    </div>
+    <div id="status" class="status"></div>
+  </div>
   </main>
   
   <footer>
     <div class="container">
       <p>&copy; 2025 3D Models. All rights reserved
+  </footer>
+    <script src="video-control.js"></script>
+     <script src="js/modal.js"></script>
+</body>
+</html>
