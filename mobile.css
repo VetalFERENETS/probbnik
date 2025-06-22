@@ -1,0 +1,47 @@
+@media (max-width: 767px){
+     header h1 {
+    font-size: 2.7em;
+    color: #ffffff;
+}
+nav a {
+   
+    font-size: 2.7em;
+}
+.game-description h1 {
+    font-size: 2.2em;
+}
+.game-description p {
+    font-size: 1.5em;
+}
+video{
+    width: 90%;
+ }
+ .sponsor-section h2 {
+    font-size: 2.2em;
+ }
+.lol {
+    font-size: 1.5em;
+}
+.campaign h2 {
+    font-size: 2.2em;
+}
+.campaign-goal {
+    font-size: 1.5em;
+}
+.opus {
+     font-size: 1.7em;
+}
+
+     .timeline li, .sponsor-benefits li {
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+}
+.cta {
+    font-size: 1.4em;
+}
+.opus::before, .opus::after {
+    content: "";
+    display: inline-block;
+    width: 17%;
+}
+}
