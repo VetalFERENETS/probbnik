@@ -1,0 +1,5 @@
+background-image: url('./img/photo_2025-06-22_00-15-01.jpg'); /* заміни на шлях до свого зображення */
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;

@@ -9,17 +9,13 @@
 }
 
 body {
-     font-family: 'Windu', sans-serif;
+        font-family: 'Windu', sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #333;
   line-height: 1.3;
- 
-   background-image: url('./img/photo_2025-06-22_00-15-01.jpg'); /* заміни на шлях до свого зображення */
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
+ background-color: #1a221f;
+   
 }
 
 
@@ -62,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #c96e00;
+  color: #ffffff;
 }
 
 
@@ -263,12 +259,12 @@ video {
 }
 
 .game-description .highlight {
-      color: #c96e00;
+      color: rgb(255, 255, 255);
   font-weight: 400;
 }
 
 .game-description .closing em {
-     color: #c96e00;
+     color: #ffffff;
   font-style: normal;
   font-weight: 400;
 }
@@ -321,10 +317,11 @@ margin-top: 52px;
   display: inline-block;
   width: 18%;                /* довжина ліній (регулюйте) */
   height: 1px;
-  background: #ffffff;
+  background: #2e4a4d;
   vertical-align: middle;
   margin: 0 25px; 
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.25);
+
 }
 
 
@@ -376,9 +373,9 @@ body.modal-open {
 
 .sponsor-section button {
   font-family: 'Windu', sans-serif;
- background-color: #222222;
+ background-color: #283536;
   color: #fff;
-
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.25);
   padding: 0.75rem 1.5rem;
   font-size: 1.7em;
   border-radius: 25px;
