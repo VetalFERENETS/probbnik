@@ -246,6 +246,7 @@ video {
   margin-bottom: 1rem;
   color: #ffffff;
   text-align: center;
+    text-transform: uppercase;
 }
 
 .game-description p {
@@ -288,6 +289,7 @@ margin-top: 52px;
   color: #ffffff;
   margin-bottom: 1rem;
   text-transform: uppercase;
+
 }
 .campaign-goal {
   font-size: 2em;
@@ -345,6 +347,7 @@ margin-top: 52px;
   display: block;
   margin-top: 0.5rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 
