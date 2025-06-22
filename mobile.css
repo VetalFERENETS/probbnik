@@ -13,6 +13,29 @@ nav a {
 .game-description p {
     font-size: 1.5em;
 }
+.game-description {
+    max-width: 100%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+.sponsor-section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+.campaign {
+    font-family: 'Windu', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-top: 52px;
+    border-radius: 12px;
+    text-align: center;
+ 
+}
 video{
     width: 90%;
  }
@@ -42,6 +65,13 @@ video{
 .opus::before, .opus::after {
     content: "";
     display: inline-block;
-    width: 17%;
+    width: 12%;
+}
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    padding-bottom: 25px;
 }
 }
