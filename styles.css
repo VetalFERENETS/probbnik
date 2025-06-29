@@ -17,9 +17,10 @@ body {
 background-image: url(./img/kolds.png);
   background-attachment: fixed;
    background-position: center;
-  
+    -webkit-overflow-scrolling: touch;
       max-width: 100%;
-  height: auto;
+  
+   min-height: 100vh;
 background-color: #333;
 }
 
