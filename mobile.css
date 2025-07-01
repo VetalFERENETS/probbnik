@@ -75,6 +75,6 @@ video{
     padding-bottom: 25px;
 }
 body{
-    background-attachment: scroll;
+    height: 100%;
 }
 }

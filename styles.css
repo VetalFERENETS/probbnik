@@ -15,14 +15,15 @@ body {
   font-style: normal;
   color: #333;
   line-height: 1.3;
-background-image: url(./img/kolds.png);
+background-image: url(./img/kolds.png) ;
   background-attachment: fixed;
    background-position: center;
     -webkit-overflow-scrolling: touch;
       max-width: 100%;
-  
+    background-size: cover;
    min-height: 100vh;
 background-color: #333;
+
 }
 
 
