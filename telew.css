@@ -1,0 +1,8 @@
+@media (min-width:1540px ){
+body{
+    background-image: url(./img/pop.png);
+}
+video {
+width: 50%;
+}
+}
