@@ -32,13 +32,20 @@ video{
      font-size: 2.2em;
 }
 
-     .timeline li, .sponsor-benefits li {
+.timeline li, .sponsor-benefits li {
+    margin: 0.5rem 0;
+    font-size: 1.7rem;
+    text-align: left;
+}
+.timeline1 li, .sponsor-benefits li {
     margin: 0.5rem 0;
     font-size: 1.7rem;
     text-align: center;
 }
 .timeline, .sponsor-benefits {
+      margin-left: 77px;
+}
+.timeline1, .sponsor-benefits {
       margin-left: 0px;
 }
-
 }
