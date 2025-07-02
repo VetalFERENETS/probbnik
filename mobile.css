@@ -54,10 +54,14 @@ video{
 .opus {
      font-size: 1.7em;
 }
-
-     .timeline li, .sponsor-benefits li {
+.timeline li, .sponsor-benefits li {
     margin: 0.5rem 0;
     font-size: 1.4rem;
+    text-align: center;
+    
+}
+.timeline, .sponsor-benefits {
+  margin-left: 0px;
 }
 .cta {
     font-size: 1.4em;
