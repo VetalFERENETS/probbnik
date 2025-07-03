@@ -57,7 +57,8 @@ video{
 .timeline li, .sponsor-benefits li {
     margin: 0.5rem 0;
     font-size: 1.4rem;
-    text-align: center;
+    text-align: left;
+    margin-left: 15px;
     
 }
 .timeline1 li, .sponsor-benefits li {
