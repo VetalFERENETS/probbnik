@@ -91,4 +91,7 @@ video{
 body{
     height: 100%;
 }
+.konec{
+    display: block;
+}
 }

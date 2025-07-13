@@ -298,7 +298,16 @@ video {
 margin-top: 52px;
   border-radius: 12px;
    text-align: center;
-}
+  opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+  }
+
+  /* Клас, що «вмикає» анімацію */
+  .campaign.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 .campaign h2 {
   font-size: 3.2em;
@@ -491,7 +500,27 @@ body.modal-open {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
+.swwd{
+  margin-left: 7px;
+    display: inline-block;         /* щоб трансформація враховувала розмір контейнера */
+  animation: spin 4s linear infinite;
+   transition: transform 0.1s ease-out;
+}
+.swwd:hover,
+.swwd.stopped {
+  animation: none;
+  transform: rotate(0deg);
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.posul{
+      display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center
+}
 .status {
   font-size: 0.9rem;
   color: #f0a500;
@@ -499,6 +528,10 @@ body.modal-open {
 }
 .konec{
     font-size: 1.7em;
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .konec4{
     font-size: 1.1em;
