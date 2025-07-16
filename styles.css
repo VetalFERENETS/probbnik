@@ -496,6 +496,7 @@ body.modal-open {
   text-align: center;
   border-radius: 4px;
   transition: background 0.2s ease;
+  color: #333;
 }
 
 .amount-btn:hover {
