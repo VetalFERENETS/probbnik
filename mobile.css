@@ -26,7 +26,7 @@ nav a {
     padding: 2rem;
 }
 .campaign {
-    font-family: "Amatic SC", sans-serif;
+    font-family: "BloodnGuts", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
@@ -52,7 +52,7 @@ video{
     font-size: 1.5em;
 }
 .opus {
-     font-size: 1.6em;
+     font-size: 1.3em;
 }
 .timeline li, .sponsor-benefits li {
     margin: 0.5rem 0;
@@ -79,7 +79,7 @@ video{
 .opus::before, .opus::after {
     content: "";
     display: inline-block;
-    width: 12%;
+    width: 1%;
 }
 .video-section {
     display: flex;
