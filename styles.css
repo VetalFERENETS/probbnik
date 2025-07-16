@@ -8,6 +8,10 @@
   font-family: 'BloodnGuts';
   src: url('fonts/BloodnGuts.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Intensa Fuente';
+  src: url('fonts/Intensa Fuente.ttf') format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +38,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-   font-family: "BloodnGuts", sans-serif;
+   font-family: "Intensa Fuente", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #333;
@@ -293,7 +297,7 @@ video {
   font-weight: 400;
 }
 .campaign {
-   font-family: "BloodnGuts", sans-serif;
+   font-family: "Intensa Fuente", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
@@ -376,6 +380,8 @@ margin-top: 52px;
 .opus1{
   font-size: 2em;
   text-align: center;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 3px;
 }
 .cta {
   font-size: 1.8em;
@@ -419,7 +425,7 @@ body.modal-open {
 }
 
 .sponsor-section button {
- font-family: "BloodnGuts", sans-serif;
+ font-family: "Intensa Fuente", sans-serif;
  background-color: #283536;
   color: #fff;
   box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.25);
@@ -451,10 +457,11 @@ body.modal-open {
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
-  width: 320px;
+  width: 90%;
+  max-width: 400px;
   display: none;
   z-index: 1001;
 }
@@ -472,7 +479,6 @@ body.modal-open {
 
 .amounts {
     display: flex;
-    flex-wrap: wrap;
     gap: 1.2em;
     margin-bottom: 1rem;
     justify-content: center;
@@ -483,7 +489,7 @@ body.modal-open {
 
 .amount-btn {
   flex: 1 1 45%;
-  padding: 0.6rem;
+  padding: 0.7rem;
   background: #f0f0f0;
   border: 1px solid #ccc;
   cursor: pointer;
@@ -519,6 +525,24 @@ body.modal-open {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
+.swwd1{
+  margin-left: 7px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+    display: inline-block;         /* щоб трансформація враховувала розмір контейнера */
+  animation: spin 4s linear infinite;
+   transition: transform 0.1s ease-out;
+}
+.swwd1:hover,
+.swwd1.stopped {
+  animation: none;
+  transform: rotate(0deg);
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
 .posul{
       display: flex;
     align-content: center;
@@ -540,4 +564,6 @@ body.modal-open {
 .konec4{
     font-size: 1.1em;
     text-align: center;
+    border-top: 1px solid #dadada;
+    padding-top: 3px;
 }

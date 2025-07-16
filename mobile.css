@@ -25,8 +25,12 @@ nav a {
     text-align: center;
     padding: 2rem;
 }
+.swwd1{
+    top: 7px;
+    right: 7px;
+}
 .campaign {
-    font-family: "BloodnGuts", sans-serif;
+    font-family: "Intensa Fuente", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
