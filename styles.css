@@ -292,6 +292,7 @@ video {
   font-weight: 400;
   text-align: center;
     color: #ffffff;
+    font-family: "TT Octosquares Trial Light", sans-serif;
 }
 
 .game-description .highlight {
@@ -305,7 +306,7 @@ video {
   font-weight: 400;
 }
 .campaign {
-   font-family: "Baiser", sans-serif;
+   font-family: "TT Octosquares Trial Light", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #ffffff;
@@ -369,6 +370,7 @@ margin-top: 52px;
     text-align: center;
           /* вертикальні відступи за потреби */
   position: relative;
+   font-family: "Baiser", sans-serif;
 }
 .opus::before,
 .opus::after {
@@ -386,7 +388,7 @@ margin-top: 52px;
 
 
 .opus1{
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   border-bottom: 1px solid #dadada;
   padding-bottom: 3px;
@@ -426,6 +428,7 @@ body.modal-open {
 }
 .lol{
   font-size: 2em;
+  font-family: "TT Octosquares Trial Light", sans-serif;
 }
 .sponsor-section p {
   margin-bottom: 25px;
