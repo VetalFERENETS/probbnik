@@ -467,7 +467,7 @@ body.modal-open {
   position: fixed;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: #c5c5c5;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
@@ -501,7 +501,7 @@ body.modal-open {
 .amount-btn {
   flex: 1 1 45%;
   padding: 0.7rem;
-  background: #f0f0f0;
+  background: #c5c5c5;
   border: 1px solid #ccc;
   cursor: pointer;
   text-align: center;
